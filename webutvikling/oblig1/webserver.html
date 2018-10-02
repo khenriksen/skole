@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="nb">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Oblig 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css\stilark.css" />
+</head>
+
+<body>
+
+    <header>
+        <h1>Oblig 1</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="artikkel.html">Artikkel</a></li>
+                <li><a href="innhold-vs-design.html">Innhold vs Design</a></li>
+                <li><a href="webserver.html">Webserver</a></li>
+                <li><a href="semantikk.html">Semantikk</a></li>
+                <li><a href="box-modellen.html">Box modellen</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <h3>Webserver</h3>
+                <time datetime="2018.09.19">19.09.2018</time>
+                <p>En webserver er serveren som nettsiden ligger på, vi snakker da om konfig filer osv. Serveren kjører
+                    da en web service som tilgjengeligjør nettsiden på forskjellige porter over http/https. I dagens IT
+                    verden er det normalt å leie en server hos noen som da hoster websiden din, med mindre man har noen
+                    spesielle krav (f.eks krav til on-premise lagring). Nettsidene er tilgjengelig på på forskjellige
+                    porter, http er på 80, og https (secure) er port 443. For å kjøre https kreves det et sertifikat
+                    som sørger for at trafikken blir kryptert og man unngår dermed at noen lytter på trafikken til
+                    siden (man in the middle). De fleste web servere kjører apache, som er et open source proskjekt.
+                    Dette kan kjøres på både UNIX servere og Windows servere, men det er mest vanlig å kjøre på UNIX.
+                    Man kan også si at IIS har mange sider kjørende, men tar man bort sider som blir autogenerert ved
+                    diverse intallasjoner så vil apache ha en god del større andel nettsider. </p>
+            </article>
+
+            <figure>
+                <img src="pictures\simplehttptraffic.png" width="450px" alt="http traffic">
+                <figcaption>Simple HTTP traffic</figcaption>
+            </figure>
+
+
+            <article>
+                <h3>Tilkobling til webserver (enkelt forklart)</h3>
+                <p>Når man skal koble seg til en web server så skriver man en URL i addresselinjen, det første som
+                    skjer er at man sender en forespørsel til DNS serveren du har satt som default. Denne vil enten
+                    sende forespørselen videre eller gi deg et svar avhengig om den kjenner til URL-en eller ikke. Når
+                    du har fått et svar fra DNS serveren har du fått IP-addressen til serveren, og man vil derfor prøve
+                    å nå denne serveren. Man sender derfor en forespørsel til routeren din, som sender forespørselen
+                    videre til neste router. Man vil deretter gjøre en del hopp avhengig av et par ting, hvordan
+                    nettverkstopologien ser ut, hvordan nettverket er konfigurert og hvor man er avhengig av serveren.
+                    Når forespørselen kommer frem til serveren så går den igjennom en brannmur (den burde ihvertfall)
+                    som har et sett med regler for hva den skal godta og ikke godta når det kommer til tikoblinger.
+                    Hvis du har koblet til på riktig port burde nettsiden nå vise seg i nettleseren din. Web servren
+                    kan også være konfigurert til å redirecte deg til, f.eks http://www.vg.no blir til
+                    https://www.vg.no.
+
+                </p>
+
+            </article>
+
+            <ul class="webartikkel">
+                <li><a href="https://www.upguard.com/articles/iis-apache">IIS vs Apache</a></li>
+                <li><a href="https://www.acunetix.com/websitesecurity/webserver-security/">Enkle steg for å sikre
+                        webserver</a></li>
+                <li><a href="https://www.raspberrypi.org/documentation/remote-access/web-server/apache.md">Apache på
+                        raspberrypi</a></li>
+            </ul>
+
+        </section>
+    </main>
+
+    <footer>
+        <p><time datetime="2018">2018</time> Kristian Henriksen, <a href="mailto:krishen@hiof.no">krishen@hiof.no</a></p>
+    </footer>
+
+</body>
+
+</html>

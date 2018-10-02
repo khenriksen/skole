@@ -1,0 +1,171 @@
+body {
+    padding-left: 22%;
+    padding-right: 22%;
+    background-color: lightblue;
+    max-width: 1000px;
+
+
+}
+
+header {
+    text-align: center;
+    border: solid 5px cyan;
+}
+
+nav {
+    width: 900px;
+    border: darkgray;
+    text-align: center;
+    margin: auto;
+    background-color: blanchedalmond;
+    border: solid 10px magenta;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 2px 8px;
+    text-decoration: none;
+    color: black;
+
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+section li {
+    display: inline-block;
+    padding: 10px;
+    border: solid 12px rgba(255, 255, 51, 0.6);
+
+}
+
+
+section h2 {
+    text-align: center;
+    border: solid 14px darkmagenta;
+}
+
+section article h3 {
+    text-align: center;
+    width: 50%;
+    border: solid 10px magenta;
+}
+
+
+section article time {
+    margin-left: 0%;
+}
+
+main section article p {
+    text-align: justify;
+    margin-left: 0%;
+    width: 50%;
+}
+
+
+main section article a {
+    display: inline-block;
+    padding: 2px 8px;
+    border: solid 8px yellowgreen;
+    text-decoration: none;
+    color: magenta;
+    background-color: black;
+}
+
+.artikkelboks {
+    margin: 5px;
+    text-align: center;
+    border: 4px solid slateblue;
+    width: 250px;
+    height: 250px;
+    padding: 30px;
+    float: left;
+}
+
+.artikkelboks p {
+    text-align: center;
+    width: 250px;
+}
+
+.webartikkel {
+    text-align: center;
+    bottom: 10%;
+
+}
+
+figure {
+    box-sizing: border-box;
+    width: 50%;
+    margin: 15px;
+    margin-right: 0%;
+    float: right;
+}
+
+figcaption {
+    margin: 15px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+
+/* Box modell */
+
+#all {
+    padding: 20px;
+    font-size: 20px;
+    border: 20px solid rgba(0, 0, 0, 0.5);
+}
+
+#box4 {
+    margin: auto;
+    padding: 600px;
+    border: solid 55px mediumvioletred;
+    border-style: groove;
+    background-color: rgba(255, 102, 255, 0.4);
+
+}
+
+#box1 {
+    margin: 10px, 10px;
+    border: 3px solid wheat;
+}
+
+#box2 {
+    padding: 30%;
+    color: blueviolet;
+    margin: 30px;
+    border: solid 40px mediumslateblue;
+    float: left;
+    border-style: dashed;
+}
+
+#box2:hover {
+    background-color: rgb(255, 255, 40)
+}
+
+#box3 {
+    float: right;
+    text-decoration-color: darkorchid;
+    padding-bottom: 0%;
+    padding-top: 50px;
+    margin-right: 0%;
+    margin-top:10px;
+    border: solid 90px rosybrown;
+    border-style: dotted;
+}

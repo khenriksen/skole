@@ -1,0 +1,48 @@
+Vurdering 1
+Oppgave 1:
+Oversiktlig side, med alle komponentene som kreves i Oppgaven. HTML koden er også fin og oversiktlig. 
+Oppgave 2:
+Visuelt ser siden bra ut, men mangler <figcaption><figure> for bildet, og <time> for angivelse av tidspunktet. 
+Oppgave 3:
+Oppgaven er gjennomført. Kanskje litt lite tekst, men fint med an konklusjon. Også er det veldig bra å ha med kilder!
+Oppgave 4:
+Fint med bildet, og en innledning til hva en web server er. Fint med liste på de mest vanlige serverne. Litt usikker på følgende punkte under Funksjonalitet: "Hvis serveren ikke finner den etterspurte filen så spør den videre helt til den finner en server som holder på informasjonen". Jeg tror ikke webserveren sender noe videre hvis den ikke finner filen da får man vel en 404 feilkode. Dette kan vel en studass svare på tenker jeg :). Eller så savner jeg tre artikler om web servere, Igjen bra med kilder!
+Oppgave 5:
+Kort og god beskrivelse av semantiske tagger, savner kanskje litt mer rundt fordelene og beskrivelse av de forskjellige taggene. 
+Oppgave 6:
+Ovseriktlig oppsett og bra med kommentarer i CSS! Du har også fått med alle kravene i oppgaven (litt usikker på teksten i nav menyen, blir svart når man har musa over, men har ellers farge som en vanlig hyperlink). 
+Oppgave 7: 
+Fint og oversitklig, bra med forskellige eksempler og passende tekst!
+Vurdering 2
+Oppgave 1:
+Oversiklig første side, bra med kommentarer i HTML koden!
+Oppgave 2:
+Fint med bruk av semantiske tagger, og fint oppsett på artikkel! Tror man skal bruke <time datetime="2018-09-23">23.09.2018</time> for å angi dato riktig, men er ikke helt sikker på om det nødvendig. 
+Oppgave 3:
+Bra med bruk av bilder for å illustrere bra/dårlig design og en god artikkel!
+Oppgave 4:
+Igjen en god artikkel! Eneste jeg tror ikke stemmer er at IIS hovedsakelig fungerer på win2k og win2k3, mener at det det er i bruk på nyerer versjoner også. Eller bra jobbet!
+Oppgave 5:
+Veldig bra skrevet og fint med bilder! :)
+Oppgave 6:
+Alle kravene er oppfylt og veldig fin og oversiktlig css!
+Oppgave 7:
+Bra løst oppgave! Her er det oversiktlig og fint med masse forskjellige eksempler, bra jobbet!
+Vurdering 3
+
+Oppgave 1:
+Kanskje litt lite designmessig, men oppgaven er løst. 
+Oppgave 2:
+Oppgaven er løst, savner kanskje bruk av <figure><figcaption> for bildet og <time> for dato. 
+Oppgave 3:
+Skulle kanskje vært litt mer innhold. 
+Oppgave 4:
+Ser at du har lest deg litt opp på webserver, bra! Savner fortsatt litt mer informasjon, finnes det flere typer? Du går også litt inn på dette med tilkobling, og jeg er litt usikker på følgende: "nettside så sender du en forespørsel til webserveren som prøver å finne nettsiden og sjekker DNS og hvor den kommer fra". Tror det er klienten som kontakter DNS for å se hvor webserveren er. Savner også et litt mer beskrivende tekst på linkene.
+Oppgave 5:
+Kort og riktig det du har skrevet om semantikk, savner litt mer informasjon her også. Kanskje noen eksempler på de forskjellige semtantiske taggene?
+Oppgave 6:
+Linken i toppen fungerer ikke, og css samsvarer ikke med kravene i oppgaven.
+Oppgave 7: 
+Link fungerer ikke/ikke vurdert.  
+
+
