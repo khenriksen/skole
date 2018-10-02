@@ -6,13 +6,15 @@ body{
     grid-template-areas:"header header header header"
     "section section section sidebar" 
     "footer footer footer footer";
+    background-color: rgb(238, 230, 230);
 }
 
 .header {
     display: grid;
     grid-template-columns: 100%;
-    background-image: url("../pictures/header.jpg");
+    background-image: url("../pictures/header1.jpg");
     text-align: center;
+    border-radius: 25px;
 }
 
 .top-menu {
@@ -26,16 +28,22 @@ body{
 .top-menu li a {
     text-decoration: none;
     color: papayawhip;
+    background-color: rgb(156, 141, 141);
+    border: none;
+    padding: 15px 28px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    background-color:  rgba(156, 141, 141, 0.7);
+    border-radius: 16px;
 }
 
-/*.main-forside {
-    grid-template-columns: 1fr 3fr;
-}*/
+/* Forside */
 
 .section-forside {
+    margin-top: 15px;
     display: grid;
     grid-template-columns: 70% 30%;
-    border: solid 2px magenta;
     grid-gap: 5px;
 }
 
@@ -45,35 +53,137 @@ body{
 }
 
 .article-forside {
-    margin-right: 10px; 
+    margin-left: 10px; 
+    background-color: rgba(190, 187, 187, 0.4);
+    border-radius: 25px;
+    text-align: center;
+    width: 33%;
 }
 
 .article-forside h2 {
     text-align: center; 
 }
- /*
-.article-forside {
-    display: flex;
-    flex-direction: row;
-    border: solid 2px navy;
 
-
+.article-forside p {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
 }
-*/
+
+.article-forside img {
+    width: 8em;
+    height: 8em;
+}
+
+.article-linkbtn {
+    background-color: rgb(155, 150, 150);
+    border: none;
+    color: white;
+    padding: 15px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
 
 .sidebar {
     display: grid;
-    grid-template-rows: 1.5fr 1fr 1fr;
+    grid-template-rows: 1.5fr 1.5fr 0.5fr;
     grid-gap: 5px;
-    border: solid 2px black;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .section-aside {
-    border: solid 2px green;
+    text-align: center;
+    background-color:  rgba(156, 141, 141, 0.6);
+    border-radius: 10px;
+}
+
+.section-aside h3 {
+    text-align: center;
+}
+
+.section-aside ul {
+    margin-top: 5%;
+    list-style: none;
+}
+
+.section-aside li {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.section-aside li a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.section-gitbtn {
+    background-color: rgb(112, 107, 107);
+    border: none;
+    color: white;
+    padding: 15px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* Artikkel */
+
+.section-artikkel h2 {
+    text-align: center;
+}
+
+.article-artikkel {
+    display: grid;
+    grid-auto-columns: auto;
+    grid-gap: 10px;
+    margin-left: 10px; 
+    margin-right: 10px;
+    background-color: rgba(190, 187, 187, 0.4);
+    border-radius: 25px;
+}
+
+.article-artikkel h3 {
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.article-artikkel p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.article-maler {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.article-maler h3 {
+    text-align: center;
+
+}
+
+.article-maler img{
+    width: 100%;
+    text-align: center;
+
 }
 
 footer {
+    width: auto;
+    margin-top: 15px;
     display: grid;
-    grid-template-columns: auto;
-    border: solid 2px rebeccapurple;
+    grid-template-rows: auto;
+    background-color: rgba(190, 187, 187, 0.4);
+    border-radius: 25px;
+}
+
+footer p {
+    margin-left: 10px;
 }
