@@ -2,6 +2,7 @@ body{
     padding-left: 5%;
     padding-right: 5%;
     grid-gap: 15px;
+    line-height: 1.5;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:"header header header header"
     "section section section sidebar" 
@@ -15,11 +16,12 @@ body{
     background-image: url("../pictures/header1.jpg");
     text-align: center;
     border-radius: 25px;
+    background-repeat: no-repeat;
 }
 
 .top-menu {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 15px;
     list-style: none;
     text-align: center;
@@ -47,6 +49,12 @@ body{
     grid-gap: 5px;
 }
 
+iframe {
+    width: 100%;
+    height: 99%;
+    border: 0;
+}
+
 .article-wrapper {
     display: flex;
     flex-direction: row;
@@ -64,6 +72,7 @@ body{
     text-align: center; 
 }
 
+
 .article-forside p {
     margin-left: 10px;
     margin-right: 10px;
@@ -76,14 +85,16 @@ body{
 }
 
 .article-linkbtn {
+    display: flex;
+    flex-direction: column;
     background-color: rgb(155, 150, 150);
     border: none;
     color: white;
     padding: 15px 28px;
-    text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
+    max-width: 15%;
+    margin-left: 35%;
 }
 
 .sidebar {
@@ -135,8 +146,19 @@ body{
 
 /* Artikkel */
 
+.artikkel-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 .section-artikkel h2 {
     text-align: center;
+}
+
+.img-artikkel img{
+    width: 100%;
+    text-align: center;
+    height: 25em;
+
 }
 
 .article-artikkel {
@@ -151,7 +173,8 @@ body{
 
 .article-artikkel h3 {
     margin-left: 20px;
-    padding-top: 20px;
+    text-align: center;
+    font-size: 1.5em;
 }
 
 .article-artikkel p {

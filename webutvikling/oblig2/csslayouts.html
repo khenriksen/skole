@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="nb">
 
 <head>
     <meta charset="utf-8" />
@@ -7,6 +7,7 @@
     <title>Oblig</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="css/print.css" />
 </head>
 
 <body>
@@ -18,34 +19,58 @@
                 <li><a href="git.html">Git</a></li>
                 <li><a href="mediatypes.html">Media Typer</a></li>
                 <li><a href="csslayouts.html">CSS Layouts</a></li>
+                <li><a href="wireframe.html">Wireframe</a></li>
             </ul>
         </nav>
     </header>
     <main>
 
         <section class="section-artikkel">
-                <h2>Overskrift til siden</h2>
+            <h2>CSS Layouts</h2>
+            <div class="artikkel-wrapper">
                 <article class="article-artikkel">
-                    <h3>Overskrift til paragraf</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus adipisci quae nisi excepturi,
-                        mollitia eius modi minus omnis ut id itaque obcaecati vel? Excepturi, ducimus. Alias, hic!
-                        Natus,
-                        labore porro.
-                        Quae tempora labore, ipsa dolores, ad voluptate totam esse vitae eum atque porro! Expedita
-                        quasi,
-                        aperiam esse vel placeat in earum sint exercitationem doloribus, beatae dolorum quae? Aliquid,
-                        velit dolore?
-                        Minima quas magnam nam error distinctio? Mollitia esse velit quibusdam quia voluptate pariatur
-                        aspernatur excepturi animi maiores, ab amet sint ipsum blanditiis tenetur expedita ipsam
-                        recusandae? Esse facilis molestiae voluptate?
-                        Amet at rerum exercitationem voluptas, suscipit a. Ipsam enim iste eaque dolore corporis vero,
-                        cumque soluta alias, at, perspiciatis libero voluptatibus. Fugiat fuga incidunt dolor ducimus
-                        dolorum rerum sapiente mollitia.
-                        Eos tempora nemo modi eius officiis quod dolore omnis, rerum voluptatibus distinctio minima,
-                        perferendis odit aliquid consectetur molestiae ducimus. Harum animi possimus reprehenderit
-                        dicta,
-                        repellendus id itaque autem a voluptates!</p>
+                    <h3>Generelt</h3>
+                    <p>CSS layouts er måten man styler nettsiden på, dette kan gjøres på forskjellige måter. Den
+                        vanligste i dag er nok Flexbox, men Grid er den nyeste måten å gjøre det på. Ev en kombinasjon
+                        av de to. Det er også mange sider som er stylet opp med Float, selv om både Flexbox og Grid er
+                        bedre måter å style en side på. Før Grid og Flexbox måtte man også jukse litt for å få designet
+                        dit man ville ha det. </p>
+
+                    <h3>CSS Grid</h3>
+                    <p>CSS Grid blir brukt til å style nettsiden i CSS. Dette fungerer ved at man deler inn områder i
+                        såkalte grids, altså i rutenett. Man definerer også grid områder i designet CSSen, altså header
+                        er et området, section osv. Man posisjonerer deretter elementer inn i disse rutene. Man må
+                        definere hvilken vei disse skal gå, enten som kolonner eller rader. Dette er en relativt ny
+                        måte å posisjonere elementer på, men når man skjønner hvordan det fungerer så er det en logisk
+                        måte å få til layout på.
+                        Hvis man bruker Grid riktig vil man også kunne gjøre nettsiden responsivt på en enklere måte,
+                        da man redefinerer grid områdene. Når man bruker Grid styler man også i et to-dimensjonalt
+                        system, altså rader og kolonner.
+                    </p>
+                    <h3>CSS Flexbox</h3>
+                    <p>I CSS Flexbox plasserer man elementene inn i bokser for deretter å plassere boksene rundt på
+                        nettsiden. Denne fungerer en-dimensjonalt, altså enten som en rad eller kolonne. Dette er
+                        definert med flex-direction. Flex boks vil også legge seg default over hverandre (horisontalt)
+                        får å få til et mer responsivt design. Dette er mye mer brukervennlig enn tidligere måter å
+                        gjøre det på (CSS Float).
+                    </p>
+                    <h3>CSS Float</h3>
+                    <p>CSS Float er den måten som var vanligst å style nettsider på før, og det den gjorde at man kunne
+                        bestemme om et element skulle flyte til venstre eller høyre. Man vil også klarere (clear)
+                        elementene sånn at de ikke legger seg oppå hverandre. Det er viktig å kjenne til denne
+                        utdaterte måten å designe nettsider på da den fortsatt finnes på mange nettsider. </p>
                 </article>
+                <div class="img-artikkel">
+                    <figure>
+                        <img src="pictures/cssgrid.png" alt="cssgrid">
+                        <figcaption>Grid illustrasjon</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="pictures/float.jpg" alt="float">
+                        <figcaption>Float illustrasjon</figcaption>
+                    </figure>
+                </div>
+            </div>
         </section>
     </main>
     <footer>

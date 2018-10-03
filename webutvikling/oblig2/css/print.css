@@ -1,0 +1,26 @@
+@media print {
+    body {
+        background-color: #ffffff;
+    }
+
+    nav ul li {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+    footer p {
+        display: none;
+    }
+    
+    img {
+        display: none;
+    }
+
+    figcaption {
+        display: none;
+    }
+}
+

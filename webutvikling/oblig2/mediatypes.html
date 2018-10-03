@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="nb">
 
 <head>
     <meta charset="utf-8" />
@@ -7,6 +7,7 @@
     <title>Oblig</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="css/print.css" />
 </head>
 
 <body>
@@ -18,34 +19,41 @@
                 <li><a href="git.html">Git</a></li>
                 <li><a href="mediatypes.html">Media Typer</a></li>
                 <li><a href="csslayouts.html">CSS Layouts</a></li>
+                <li><a href="wireframe.html">Wireframe</a></li>
             </ul>
         </nav>
     </header>
     <main>
 
         <section class="section-artikkel">
-                <h2>Overskrift til siden</h2>
+            <h2>Mediatyper i CSS</h2>
+            <div class="artikkel-wrapper">
                 <article class="article-artikkel">
-                    <h3>Overskrift til paragraf</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus adipisci quae nisi excepturi,
-                        mollitia eius modi minus omnis ut id itaque obcaecati vel? Excepturi, ducimus. Alias, hic!
-                        Natus,
-                        labore porro.
-                        Quae tempora labore, ipsa dolores, ad voluptate totam esse vitae eum atque porro! Expedita
-                        quasi,
-                        aperiam esse vel placeat in earum sint exercitationem doloribus, beatae dolorum quae? Aliquid,
-                        velit dolore?
-                        Minima quas magnam nam error distinctio? Mollitia esse velit quibusdam quia voluptate pariatur
-                        aspernatur excepturi animi maiores, ab amet sint ipsum blanditiis tenetur expedita ipsam
-                        recusandae? Esse facilis molestiae voluptate?
-                        Amet at rerum exercitationem voluptas, suscipit a. Ipsam enim iste eaque dolore corporis vero,
-                        cumque soluta alias, at, perspiciatis libero voluptatibus. Fugiat fuga incidunt dolor ducimus
-                        dolorum rerum sapiente mollitia.
-                        Eos tempora nemo modi eius officiis quod dolore omnis, rerum voluptatibus distinctio minima,
-                        perferendis odit aliquid consectetur molestiae ducimus. Harum animi possimus reprehenderit
-                        dicta,
-                        repellendus id itaque autem a voluptates!</p>
+                    <h3>Generelt</h3>
+                    <p>Det finnes forskjellige media typer i CSS som optimaliserer nettsiden til forskjellige
+                        bruksområder. F.eks kan media type speech brukes av de som har skjermleser. Print optimaliserer
+                        nettsiden for å skrive ut. </p>
+
+                    <h3>Fordeler med mediatyper</h3>
+                    <p>Fordelene med mediatyper er at man optimaliserer til nettsiden for bruksområdet, dette betyr at
+                        en bruker som har synsproblemer også har mulighet til å besøke siden og få med seg innholdet
+                        når via speech typen. Print typen betyr at siden kan optimaliseres for å printe ut, dette betyr
+                        at man kan gi print en spesifikk stilart som f.eks fjerner header/footer og kun får med seg
+                        innholdet.
+                    </p>
+                    <h3>Utdaterte media typer</h3>
+                    <p>Det er flere mediatyper som har blitt erstattet av responsivt design, man ser f.eks ikke noen
+                        grunn til å ha media type handheld device (mobil) eller prosjektor lenger. Hvis du går inn på
+                        nettavisen.no på mobiltelefonen, så vil du se at URL-en endrer seg til m.nettavisen.no. Dette
+                        skjer da de har brukt type istedenfor responsivt design.</p>
                 </article>
+                <div class="img-artikkel">
+                    <figure>
+                        <img src="pictures/mediatypeslayout.jpg" alt="mediatypeslayout">
+                        <figcaption>Illustrasjon av layout på forskjellige skjermer</figcaption>
+                    </figure>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
